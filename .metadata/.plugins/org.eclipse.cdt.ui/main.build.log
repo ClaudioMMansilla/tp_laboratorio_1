@@ -1,0 +1,9 @@
+19:16:37 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -o main.exe "src\\ArrayPassenger.o" "src\\Flight.o" "src\\TypePassenger.o" "src\\main.o" "src\\options.o" "src\\validaciones.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find src\TypePassenger.o: No such file or directory
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find src\validaciones.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+19:16:37 Build Failed. 2 errors, 0 warnings. (took 932ms)
+
