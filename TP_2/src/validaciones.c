@@ -42,7 +42,7 @@ int utn_getNumeroFloat(float* pResultado, char* mensaje, char* mensajeError, flo
 		do
 		{
 			printf("%s", mensaje);
-			scanf("%d", &bufferFloat);
+			scanf("%f", &bufferFloat);
 			if(bufferFloat >= minimo && bufferFloat <= maximo)
 			{
 				*pResultado = bufferFloat;
